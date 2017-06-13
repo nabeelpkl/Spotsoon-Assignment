@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
     //Adding adapter to pager
     tabViewPager.setAdapter(adapter);
     tabViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
+    //small work around to fix text color bug
+    adapter.SetOnSelectView(tabLayout, 0);
     TabLayout.OnTabSelectedListener tabSelectedListener = new TabLayout.OnTabSelectedListener() {
       @Override public void onTabSelected(TabLayout.Tab tab) {
         int c = tab.getPosition();
