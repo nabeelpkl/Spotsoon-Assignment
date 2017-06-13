@@ -9,14 +9,19 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:background="#81c266"
+      android:scaleType="centerCrop"
+      android:src="@drawable/akcent_cover_art"
       />
   <RelativeLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
-      android:layout_marginBottom="8dp"
+      android:background="@drawable/album_name_background"
       android:gravity="center_vertical"
-      android:padding="8dp"
+      android:paddingLeft="8dp"
+      android:paddingRight="8dp"
+      android:paddingTop="8dp"
+      android:paddingBottom="16dp"
       >
     <ImageView
         android:id="@+id/play_image"
