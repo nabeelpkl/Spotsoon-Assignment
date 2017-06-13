@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
-    getSupportActionBar().setTitle("Home");
+    getSupportActionBar().setTitle("HOME");
+    getSupportActionBar().setDisplayShowHomeEnabled(true);
+    getSupportActionBar().setIcon(R.drawable.ic_home);
+
     CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
     toolbar.setTitleTextColor(getResources().getColor(R.color.white));
 
