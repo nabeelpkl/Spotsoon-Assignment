@@ -1,4 +1,4 @@
-package me.nabeelkottol.spotsoon;
+package me.nabeelkottol.spotsoon.helper;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;

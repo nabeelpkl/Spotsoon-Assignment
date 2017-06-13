@@ -1,4 +1,4 @@
-package me.nabeelkottol.spotsoon;
+package me.nabeelkottol.spotsoon.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,8 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import me.nabeelkottol.spotsoon.R;
 
-import static me.nabeelkottol.spotsoon.ImageHelper.decodeSampledBitmapFromResource;
+import static me.nabeelkottol.spotsoon.helper.ImageHelper.decodeSampledBitmapFromResource;
 
 /**
  * Created by nabeelkottol on 12/06/17.

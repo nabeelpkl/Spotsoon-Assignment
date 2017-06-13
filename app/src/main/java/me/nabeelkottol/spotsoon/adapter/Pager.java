@@ -1,4 +1,4 @@
-package me.nabeelkottol.spotsoon;
+package me.nabeelkottol.spotsoon.adapter;
 
 import android.content.Context;
 import android.support.design.widget.TabLayout;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import me.nabeelkottol.spotsoon.fragment.BlankFragment;
+import me.nabeelkottol.spotsoon.R;
 
 /**
  * Created by nabeelkottol on 12/06/17.
@@ -53,7 +55,7 @@ public class Pager extends FragmentStatePagerAdapter {
 
   public View getTabView(int position) {
     // Given you have a custom layout in `res/layout/custom_tab.xml` with a TextView and ImageView
-    View v = LayoutInflater.from(mContext).inflate(R.layout.video_tab_layout, null);
+    View v = LayoutInflater.from(mContext).inflate(R.layout.tab_custom_layout, null);
     TextView tv = (TextView) v.findViewById(R.id.tab_title);
     tv.setText(tabTitles[position]);
     //tv.setTextColor(mContext.getResources().getColor(R.color.tab_text_selector));

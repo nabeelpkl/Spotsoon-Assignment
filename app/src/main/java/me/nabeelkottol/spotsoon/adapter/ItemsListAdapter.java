@@ -1,4 +1,4 @@
-package me.nabeelkottol.spotsoon;
+package me.nabeelkottol.spotsoon.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.List;
+import me.nabeelkottol.spotsoon.R;
+import me.nabeelkottol.spotsoon.model.Item;
 
 /**
  * Created by nabeelkottol on 02/06/17.

@@ -1,4 +1,4 @@
-package me.nabeelkottol.spotsoon;
+package me.nabeelkottol.spotsoon.model;
 
 /**
  * Created by nabeelkottol on 12/06/17.
